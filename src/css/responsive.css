@@ -11,7 +11,6 @@
             "e e"
         ;
 
-        max-width: 64.7rem;
     }
 
 
@@ -30,7 +29,6 @@
 
     main{
         margin: 10rem;
-        max-width: 90rem;
     }
 
 }
@@ -45,12 +43,11 @@
 
     main {
         grid-template-columns: repeat(4, 1fr);
-        margin: auto 16rem;
+        margin: 20rem 16rem;
         grid-template-areas:
             "a a b e"
             "c d d e"
         ;
-        max-width: 111.4rem;
         gap: 2.4rem 3.2rem;
     }
 
