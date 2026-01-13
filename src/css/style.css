@@ -1,4 +1,4 @@
-:rood {
+:root {
     --black: #121212;
     --dark-blue: #19202D;
     --white: #FFFFFF;
@@ -39,4 +39,45 @@
     font-weight: 500;
     line-height: 110%;
     letter-spacing: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr 2fr;
+}
+
+img{
+    width: 2.8rem;
+    height: 2.8rem;
+    border: solid 0.2rem;
+    border-radius: 50%;
+}
+
+.card-1 img{
+    border-color: var(--purple-300);
+}
+
+.card-2 img{
+    border-color: var(--grey-500);
+}
+
+.card-3 img{
+    border-color: var(--white);
+}
+
+.card-4 img{
+    border-color: var(--purple-500);
+}
+
+.card-5 img{
+    border-color: var(--white);
 }
