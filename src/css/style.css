@@ -10,32 +10,33 @@
     --purple-50: #EDE4FF;
     --purple-300: #A775F1;
     --purple-500: #733FC8;
+    --background: ##f5f5f5;
 }
 
 
 
-.text-preset-1{
+.text-preset-1 {
     font-size: 2rem;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0;
 }
 
-.text-preset-2{
+.text-preset-2 {
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 110%;
     letter-spacing: 0;
 }
 
-.text-preset-3{
+.text-preset-3 {
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 140%;
     letter-spacing: 0;
 }
 
-.text-preset-3{
+.text-preset-4 {
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 110%;
@@ -43,21 +44,23 @@
 }
 
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--background);
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 2fr 2fr;
+    grid-template-rows: repeat(5, auto);
     margin: 7.3rem 3.5rem;
+    gap: 3.2rem;
 }
 
-img{
+img {
     width: 2.8rem;
     height: 2.8rem;
     border: solid 0.2rem;
@@ -65,105 +68,161 @@ img{
 }
 
 
-.card-1{
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem;
+    gap: 1.6rem;
+    max-width: 30.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 6rem 4rem 5rem 4.7rem rgba(72, 85, 106, 0.2474);
+    
+}
+
+.user-area {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.card section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+
+.card-1 {
     background-color: var(--purple-500);
 }
-.card-1 img{
+
+.card-1 img {
     border-color: var(--purple-300);
 }
-.card-1 .user{
+
+.card-1 .user {
     color: var(--white);
 }
-.card-1 .graduate{
-    color: var(--purple-50);
-}
-.card-1 section h2{
-    color: var(--white);
-}
-.card-1 section p{
+
+.card-1 .graduate {
     color: var(--purple-50);
 }
 
+.card-1 section h2 {
+    color: var(--white);
+}
+
+.card-1 section p {
+    color: var(--purple-50);
+}
 
 
-.card-2{
+
+.card-2 {
     background-color: var(--grey-500);
 }
-.card-2 img{
+
+.card-2 img {
     border-color: var(--grey-500);
 }
-.card-2 .user{
+
+.card-2 .user {
     color: var(--white);
 }
-.card-2 .graduate{
+
+.card-2 .graduate {
     color: var(--grey-300);
 }
-.card-2 section h2{
+
+.card-2 section h2 {
     color: var(--white);
 }
-.card-2 section p{
+
+.card-2 section p {
     color: var(--grey-100);
 }
 
 
 
-.card-3{
+.card-3 {
     background-color: var(--white);
 }
-.card-3 img{
+
+.card-3 img {
     border-color: var(--white);
 }
-.card-3 .user{
+
+.card-3 .user {
     color: var(--grey-500);
 }
-.card-3 .graduate{
+
+.card-3 .graduate {
     color: var(--grey-400);
 }
-.card-3 section h2{
+
+.card-3 section h2 {
     color: var(--grey-500);
 }
-.card-3 section p{
+
+.card-3 section p {
     color: var(--grey-400);
 }
 
 
-.card-4{
+.card-4 {
     background-color: var(--dark-blue);
 }
-.card-4 img{
+
+.card-4 img {
     border-color: var(--purple-500);
 }
-.card-4 .user{
+
+.card-4 .user {
     color: var(--white);
 }
-.card-4 .graduate{
+
+.card-4 .graduate {
     color: var(--white);
 }
-.card-4 section h2{
+
+.card-4 section h2 {
     color: var(--grey-200);
 }
-.card-4 section p{
+
+.card-4 section p {
     color: var(--grey-100);
 }
 
 
 
 
-.card-5{
+.card-5 {
     background-color: var(--white);
 }
-.card-5 img{
+
+.card-5 img {
     border-color: var(--white);
 }
-.card-5 .user{
+
+.card-5 .user {
     color: var(--grey-500);
 }
-.card-5 .graduate{
+
+.card-5 .graduate {
     color: var(--grey-300);
 }
-.card-5 section h2{
+
+.card-5 section h2 {
     color: var(--grey-500);
 }
-.card-5 section p{
+
+.card-5 section p {
     color: var(--grey-400);
 }
