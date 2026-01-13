@@ -1,0 +1,42 @@
+:rood {
+    --black: #121212;
+    --dark-blue: #19202D;
+    --white: #FFFFFF;
+    --grey-100: #E7EAEE;
+    --grey-200: #CFCFCF;
+    --grey-400: #676D7E;
+    --grey-500: #48556A;
+    --purple-50: #EDE4FF;
+    --purple-300: #A775F1;
+    --purple-500: #733FC8;
+}
+
+
+
+.text-preset-1{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+.text-preset-2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0;
+}
+
+.text-preset-3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+
+.text-preset-3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0;
+}
