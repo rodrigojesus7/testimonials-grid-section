@@ -10,7 +10,7 @@
     --purple-50: #EDE4FF;
     --purple-300: #A775F1;
     --purple-500: #733FC8;
-    --background: ##f5f5f5;
+    --background: #f5f5f5;
 }
 
 
@@ -50,12 +50,19 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--background);
+    min-height: 100dvh;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    ;
     margin: 7.3rem 3.5rem;
     gap: 3.2rem;
 }
@@ -74,7 +81,6 @@ img {
     flex-direction: column;
     padding: 3.2rem;
     gap: 1.6rem;
-    max-width: 30.5rem;
     border-radius: 0.8rem;
     box-shadow: 6rem 4rem 5rem 4.7rem rgba(72, 85, 106, 0.2474);
     
@@ -101,6 +107,7 @@ img {
 
 .card-1 {
     background-color: var(--purple-500);
+    grid-area: a;
 }
 
 .card-1 img {
@@ -127,6 +134,7 @@ img {
 
 .card-2 {
     background-color: var(--grey-500);
+    grid-area: b;
 }
 
 .card-2 img {
@@ -153,6 +161,7 @@ img {
 
 .card-3 {
     background-color: var(--white);
+    grid-area: c;
 }
 
 .card-3 img {
@@ -178,6 +187,7 @@ img {
 
 .card-4 {
     background-color: var(--dark-blue);
+    grid-area: d;
 }
 
 .card-4 img {
@@ -205,6 +215,7 @@ img {
 
 .card-5 {
     background-color: var(--white);
+    grid-area: e;
 }
 
 .card-5 img {

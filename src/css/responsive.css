@@ -1,0 +1,58 @@
+@media (min-width: 48rem) {
+
+
+    main {
+        margin: 8.2rem 6rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "a a"
+            "b c"
+            "d d"
+            "e e"
+        ;
+
+        max-width: 64.7rem;
+    }
+
+
+    .card-1 {
+        background: url("../images/“.png") no-repeat;
+        background-position: top right 16.7rem;
+        background-color: var(--purple-500);
+    }
+
+
+}
+
+
+
+@media (min-width: 64rem) {
+
+    main{
+        margin: 10rem;
+        max-width: 90rem;
+    }
+
+}
+
+
+
+@media (min-width: 90rem) {
+
+    .card-1 {
+        background-position: top right 6rem;
+    }
+
+    main {
+        grid-template-columns: repeat(4, 1fr);
+        margin: auto 16rem;
+        grid-template-areas:
+            "a a b e"
+            "c d d e"
+        ;
+        max-width: 111.4rem;
+        gap: 2.4rem 3.2rem;
+    }
+
+
+}
